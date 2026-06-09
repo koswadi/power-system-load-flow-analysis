@@ -1,0 +1,44 @@
+==================================================
+POWER SYSTEM LOAD FLOW ANALYSIS
+==================================================
+
+Y-BUS MATRIX
+
+[[20.-50.j -10.+25.j  -5.+15.j  -3.+5.j  -2.+5.j]
+ [-10.+25.j 25.-60.j  -8.+20.j  -4.+10.j  -3.+5.j]
+ [ -5.+15.j -8.+20.j 20.-50.j  -5.+10.j  -2.+5.j]
+ [ -3.+5.j  -4.+10.j -5.+10.j 15.-35.j  -3.+10.j]
+ [ -2.+5.j  -3.+5.j  -2.+5.j  -3.+10.j 10.-25.j]]
+
+GAUSS-SEIDEL RESULTS
+
+Iterations : 15
+
+Bus Voltages
+
+1.050
+1.020
+1.010
+0.990
+0.975
+
+NEWTON-RAPHSON RESULTS
+
+Iterations : 4
+
+Bus Voltages
+
+1.050
+1.020
+1.010
+0.990
+0.975
+
+TRANSMISSION LOSSES
+
+Line 1-2 : 0.75 MW
+Line 2-3 : 0.48 MW
+Line 3-4 : 0.42 MW
+Line 4-5 : 0.48 MW
+
+TOTAL LOSS = 2.13 MW
