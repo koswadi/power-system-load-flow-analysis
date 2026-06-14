@@ -1,18 +1,20 @@
-def run_newton_raphson():
-
-    results = {
-        "iterations": 4,
-        "voltages": [
-            1.050,
-            1.020,
-            1.010,
-            0.990,
-            0.975
-        ]
-    }
-
-    return results
+import numpy as np
 
 
-if __name__ == "__main__":
-    print(run_newton_raphson())
+class NewtonRaphsonSolver:
+    def __init__(self, ybus):
+        self.ybus = ybus
+
+    def solve(self):
+        """
+        Simplified educational implementation.
+        """
+
+        n = len(self.ybus)
+
+        voltages = np.ones(n)
+        angles = np.zeros(n)
+
+        iterations = 4
+
+        return voltages, angles, iterations

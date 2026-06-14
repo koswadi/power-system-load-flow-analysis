@@ -1,0 +1,6 @@
+Bus_ID,Bus_Type,Voltage_Magnitude,Voltage_Angle,Active_Power_MW,Reactive_Power_MVAR
+1,Slack,1.05,0,0,0
+2,PQ,1.00,0,-80,-30
+3,PQ,1.00,0,-60,-20
+4,PV,1.02,0,100,0
+5,PQ,1.00,0,-50,-15
